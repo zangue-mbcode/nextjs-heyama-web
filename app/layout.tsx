@@ -13,8 +13,7 @@ export const metadata: Metadata = {
   description:
     'Application moderne de gestion et organisation d\'objets avec synchronisation temps réel',
   keywords: ['objets', 'gestion', 'organisation', 'collection'],
-  authors: [{ name: 'Heyama Team' }],
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
+  authors: [{ name: 'Ulrich Zangue' }],
 }
 
 export default function RootLayout({

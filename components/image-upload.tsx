@@ -98,7 +98,7 @@ export function ImageUpload({ onImageSelect, preview }: ImageUploadProps) {
                 <span className="text-muted-foreground"> ou glissez-déposez</span>
               </p>
               <p className="text-xs text-muted-foreground">
-                PNG, JPG, WebP jusqu'à 10 MB
+                PNG, JPG, WebP jusqu&apos;à 10 MB
               </p>
             </div>
           </div>

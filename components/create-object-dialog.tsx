@@ -38,7 +38,7 @@ export function CreateObjectDialog({ onSuccess }: CreateObjectDialogProps) {
     resolver: zodResolver(createObjectSchema),
   })
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: Record<string, string>) => {
     if (!selectedFile) {
       toast({
         title: 'Erreur',

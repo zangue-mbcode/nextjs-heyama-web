@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://nestjs-heyama-api-test.onrender.com"
 
 export interface HeyamaObject {
   id: string

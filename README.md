@@ -23,7 +23,7 @@ Heyama Web est un frontend Next.js 14+ qui communique avec une API REST et reço
 ### Prérequis
 
 - Node.js 18+ et npm/yarn
-- L'API Heyama en cours d'exécution (`http://localhost:3000`)
+- L'API Heyama en cours d'exécution (`https://nestjs-heyama-api-test.onrender.com`)
 
 ### Installation
 
@@ -48,8 +48,8 @@ cp .env.example .env.local
 4. Vérifiez que `.env.local` contient:
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
-NEXT_PUBLIC_SOCKET_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=https://nestjs-heyama-api-test.onrender.com
+NEXT_PUBLIC_SOCKET_URL=https://nestjs-heyama-api-test.onrender.com
 ```
 
 5. Lancez le serveur de développement:
@@ -58,7 +58,7 @@ NEXT_PUBLIC_SOCKET_URL=http://localhost:3000
 npm run dev
 ```
 
-L'application est accessible à `http://localhost:3000`
+L'application est accessible à `https://nestjs-heyama-api-test.onrender.com`
 
 ## 📦 Structure du projet
 
@@ -126,10 +126,10 @@ heyama-web/
 
 ```env
 # URL de l'API backend
-NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=https://nestjs-heyama-api-test.onrender.com
 
 # URL de Socket.IO (peut être identique à l'API)
-NEXT_PUBLIC_SOCKET_URL=http://localhost:3000
+NEXT_PUBLIC_SOCKET_URL=https://nestjs-heyama-api-test.onrender.com
 ```
 
 ### Tailwind Configuration

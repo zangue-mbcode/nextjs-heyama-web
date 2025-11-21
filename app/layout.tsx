@@ -9,9 +9,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Heyama - Gestion d\'objets',
+  title: "Heyama - Gestion d'objets",
   description:
-    'Application moderne de gestion et organisation d\'objets avec synchronisation temps réel',
+    "Application moderne de gestion et organisation d'objets avec synchronisation temps réel",
   keywords: ['objets', 'gestion', 'organisation', 'collection'],
   authors: [{ name: 'Ulrich Zangue' }],
 }

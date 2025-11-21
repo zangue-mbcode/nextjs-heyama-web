@@ -102,12 +102,12 @@ export default function ObjectDetailPage({ params }: ObjectDetailPageProps) {
           <div className="text-center space-y-4">
             <h1 className="text-2xl font-bold">Objet non trouvé</h1>
             <p className="text-muted-foreground">
-              L'objet que vous recherchez n'existe pas ou a été supprimé.
+              L&apos;objet que vous recherchez n&apos;existe pas ou a été supprimé.
             </p>
             <Link href="/">
               <Button className="gap-2">
                 <ArrowLeft className="w-4 h-4" />
-                Retour à l'accueil
+                Retour à l&apos;accueil
               </Button>
             </Link>
           </div>
@@ -185,7 +185,7 @@ export default function ObjectDetailPage({ params }: ObjectDetailPageProps) {
         open={deleteDialogOpen}
         onOpenChange={setDeleteDialogOpen}
         onConfirm={handleDelete}
-        title={`Supprimer "${object.title}"?`}
+        title={`Supprimer &quot;${object.title}&quot;?`}
         description="Cette action est irréversible. L'objet sera supprimé de façon permanente."
       />
 

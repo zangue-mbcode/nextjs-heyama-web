@@ -30,7 +30,7 @@ Heyama Web est un frontend Next.js 14+ qui communique avec une API REST et reço
 1. Clonez le projet et naviguez vers le dossier:
 
 ```bash
-cd heyama-web
+cd nextjs-heyama-web
 ```
 
 2. Installez les dépendances:

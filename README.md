@@ -420,4 +420,3 @@ Pour des questions ou problèmes, consultez la documentation de Next.js:
 
 ---
 
-Créé avec ✨ pour l'excellence. Heyama © 2024
